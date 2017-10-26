@@ -25,7 +25,8 @@ Examples
 --------
 
 .. code:: python
-
+    >>> from dict_recursive_update import recursive_update
+    
     >>> recursive_update({'a': {'b': 2}}, {'a': {'b': 3, 'd': 4}, 'e': 5})
     {'a': {'b': 3, 'd': 4}, 'e': 5}
 
