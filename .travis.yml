@@ -2,5 +2,7 @@ language: python
 python:
   - "2.6"
   - "2.7"
+  - "3.4"
+  - "3.5"
   - "3.6"
-script: python -m dict_recursive_update.__init__ -v
+script: python test/index.py
