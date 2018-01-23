@@ -14,7 +14,7 @@ with codecs.open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='dict-recursive-update',
-    version='1.0.0',
+    version='1.0.1',
     description='A Python module who does recursive update work on 2 dicts.',
     long_description=long_description,
     url='https://github.com/Maples7/dict-recursive-update',
